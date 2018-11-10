@@ -9,7 +9,12 @@ module.exports = {
       "/",
       {
         title: "Mac",
-        children: ["/mac/", "/mac/1_installation"]
+        children: [
+          "/mac/",
+          "/mac/1_installation",
+          "/mac/2_using_in_python",
+          "/mac/3_faq"
+        ]
       },
       {
         title: "Windows",
@@ -18,7 +23,8 @@ module.exports = {
       {
         title: "Ubuntu",
         children: ["/ubuntu/", "/ubuntu/1_installation"]
-      }
+      },
+      "/mongodb_with_python"
     ]
   },
   markdown: {
