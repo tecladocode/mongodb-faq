@@ -9,12 +9,7 @@ module.exports = {
       "/",
       {
         title: "Mac",
-        children: [
-          "/mac/",
-          "/mac/1_installation",
-          "/mac/2_using_in_python",
-          "/mac/3_faq"
-        ]
+        children: ["/mac/", "/mac/1_installation", "/mac/2_faq"]
       },
       {
         title: "Windows",
