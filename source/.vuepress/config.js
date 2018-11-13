@@ -13,7 +13,7 @@ module.exports = {
       },
       {
         title: "Windows",
-        children: ["/windows/", "/windows/1_installation"]
+        children: ["/windows/1_installation", "/windows/2_faq"]
       },
       {
         title: "Ubuntu",
