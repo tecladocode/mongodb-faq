@@ -8,7 +8,7 @@ These instructors are for Windows 10, however most things will look the same on 
 
 First thing to do is to navigate to the download page, [here](https://www.mongodb.com/download-center/community "https://www.mongodb.com/download-center/community").
 
-![Mongo Download Center](./pics/mongoDownLoadCenter.PNG)
+![Mongo Download Center](./pics/mongoDownLoadCenter.png)
 
 ::: tip
 The local operating system and the lastest version of MongoDB should already be selected.
@@ -16,7 +16,7 @@ The local operating system and the lastest version of MongoDB should already be 
 
 ### In the Package dropdown box, select MSI and click download.
 
-![Download Dropdown](./pics/downloadDropdown.PNG)
+![Download Dropdown](./pics/downloadDropdown.png)
 
 ### Then click download.
 
@@ -62,7 +62,7 @@ If you open CMD in windows and type in mongo, you will see that mongo doesn't wo
 
 To fix this, using the Windows search look for **environment variables**.
 
-![Searching for Environmental Variables](./pics/searchForEnvironmental.PNG)
+![Searching for Environmental Variables](./pics/searchForEnvironmental.png)
 
 This will open up edit Environment Variable's properties box.  Click once on the **path** property, and then click **edit**.
 
@@ -78,12 +78,12 @@ Once new is clicked, a cursor will show up in a new editable row. There you shou
 C:\Program Files\MongoDB\Server\4.0\bin
 ```
 
-![New Environment Variable](./pics/pasteMongoLocationIn.PNG)
+![New Environment Variable](./pics/pasteMongoLocationIn.png)
 
 Click Ok, and ok again until all dialog boxes are closed. Then run cmd.exe once more (closing and re-opening if necessary) and attempt to execute `mongo`. 
 
-![Working Mongo](./pics/workingMongo.PNG)
+![Working Mongo](./pics/workingMongo.png)
+
 :::tip 
 In the course videos,  I run mongod in the terminal.  This is not needed in Windows, as it is installed as a service. 
 :::
-
