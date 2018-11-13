@@ -19,7 +19,14 @@ module.exports = {
         title: "Ubuntu",
         children: ["/ubuntu/", "/ubuntu/1_installation"]
       },
-      "/mongodb_with_python"
+      {
+        title: "MongoDB with Python",
+        children: [
+          "/mongodb_with_python/",
+          "/mongodb_with_python/database.py",
+          "/mongodb_with_python/faq"
+        ]
+      }
     ]
   },
   markdown: {
