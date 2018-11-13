@@ -1,4 +1,4 @@
-# Installation and Usage
+# MongoDB on Mac 
 
 ## Installation
 

@@ -1,7 +1,7 @@
 # MongoDB on Windows
 
 ::: warning 
-These instructors are for Windows 10, however most things will look the same on Windows 8 and Windows 7.
+These instructions are for Windows 10, however most things will look the same on Windows 8 and Windows 7.
 :::
 
 ## Download  
