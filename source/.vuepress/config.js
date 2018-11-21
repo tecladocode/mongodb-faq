@@ -6,19 +6,19 @@ module.exports = {
   themeConfig: {
     lastUpdated: "Last updated",
     sidebar: [
-      "/",
+      //"/",
       {
         title: "Mac",
-        children: ["/mac/", "/mac/1_installation", "/mac/2_faq"]
+        children: ["/mac/1_installation", "/mac/2_faq"]
       },
       {
         title: "Windows",
         children: ["/windows/1_installation", "/windows/2_faq"]
       },
-      {
-        title: "Ubuntu",
-        children: ["/ubuntu/", "/ubuntu/1_installation"]
-      },
+      //{
+      //  title: "Ubuntu",
+      //  children: ["/ubuntu/", "/ubuntu/1_installation"]
+      //},
       {
         title: "MongoDB with Python",
         children: [
