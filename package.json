@@ -5,7 +5,8 @@
     "deploy": "npm run docs:build && surge --project ./source/.vuepress/dist/ --domain https://arac.tecladocode.com"
   },
   "dependencies": {
-    "vuepress": "^0.14.4"
+    "vuepress": "^0.14.4",
+    "cryptiles": ">=4.1.2"
   },
   "devDependencies": {
     "surge": "^0.20.1"
