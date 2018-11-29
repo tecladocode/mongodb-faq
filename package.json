@@ -1,7 +1,8 @@
 {
   "scripts": {
     "docs:dev": "vuepress dev source",
-    "docs:build": "vuepress build source"
+    "docs:build": "vuepress build source",
+    "deploy": "surge --project ./ --domain https://arac.tecladocode.com"
   },
   "dependencies": {
     "vuepress": "^0.14.4"
