@@ -37,6 +37,6 @@ jobs:
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "release" ]; then
-              surge --project ./ --domain https://arac.tecladocode.com
+              npm run deploy
             fi
 
