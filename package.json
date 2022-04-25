@@ -6,7 +6,8 @@
   },
   "dependencies": {
     "vuepress": "^0.14.4",
-    "cryptiles": ">=4.1.2"
+    "cryptiles": ">=4.1.2",
+    "vuepress-plugin-plausible": "0.0.2"
   },
   "devDependencies": {
     "surge": "^0.20.1"
