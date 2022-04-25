@@ -1,5 +1,13 @@
 # FAQ
 
+::: warning
+Much of the information in this e-book is deprecated or no longer applicable.
+
+Nowadays I recommend using MongoDB Atlas for local development, as it's much easier than installing MongoDB in your computer.
+
+Our Complete Python Course has also been updated so that the information in this e-book is no longer necessary.
+:::
+
 ### Q: **Why do I not need to run mongod, as shown in the course videos?**  
  A: Windows runs MongoDB as a service.  A service is a program that executed the moment a user logs into Windows and never quits.  All operating systems do this, and Windows does this using services.
 

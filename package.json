@@ -1,14 +1,13 @@
 {
   "scripts": {
-    "docs:dev": "vuepress dev source",
-    "docs:build": "vuepress build source",
-    "deploy": "npm run docs:build && surge --project ./source/.vuepress/dist/ --domain https://arac.tecladocode.com"
+    "cur:dev": "vuepress dev source",
+    "cur:build": "vuepress build source",
+    "deploy": "npm run cur:build && surge --project ./source/.vuepress/dist/ --domain https://mongodb.tecladocode.com"
   },
   "dependencies": {
-    "vuepress": "^0.14.4",
-    "cryptiles": ">=4.1.2"
-  },
-  "devDependencies": {
-    "surge": "^0.20.1"
+    "surge": "^0.21.7",
+    "vuepress": "^1.8.2",
+    "cryptiles": ">=4.1.2",
+    "vuepress-plugin-plausible": "0.0.2"
   }
 }
