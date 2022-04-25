@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "docs:dev": "vuepress dev source",
-    "docs:build": "vuepress build source",
-    "deploy": "npm run docs:build && surge --project ./source/.vuepress/dist/ --domain https://mongodb.tecladocode.com"
+    "cur:dev": "vuepress dev source",
+    "cur:build": "vuepress build source",
+    "deploy": "npm run cur:build && surge --project ./source/.vuepress/dist/ --domain https://mongodb.tecladocode.com"
   },
   "dependencies": {
     "vuepress": "^0.14.4",
