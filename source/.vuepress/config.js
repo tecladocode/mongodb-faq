@@ -5,6 +5,13 @@ module.exports = {
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     lastUpdated: "Last updated",
+    nav: [
+      { text: "Home", link: "/" },
+      {
+        text: "Get the course",
+        link: "https://go.tecla.do/web-dev-course-sale",
+      },
+    ],
     sidebar: [
       //"/",
       {

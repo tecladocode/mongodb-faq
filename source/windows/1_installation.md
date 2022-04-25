@@ -1,5 +1,13 @@
 # MongoDB on Windows
 
+::: warning
+Much of the information in this e-book is deprecated or no longer applicable.
+
+Nowadays I recommend using MongoDB Atlas for local development, as it's much easier than installing MongoDB in your computer.
+
+Our Complete Python Course has also been updated so that the information in this e-book is no longer necessary.
+:::
+
 ::: warning 
 This guide is for Windows 10, however most things will look the same on Windows 8 and Windows 7.
 :::

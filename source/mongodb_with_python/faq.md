@@ -1,5 +1,13 @@
 # FAQ
 
+::: warning
+Much of the information in this e-book is deprecated or no longer applicable.
+
+Nowadays I recommend using MongoDB Atlas for local development, as it's much easier than installing MongoDB in your computer.
+
+Our Complete Python Course has also been updated so that the information in this e-book is no longer necessary.
+:::
+
 ## `NoneType` has no attribute...
 
 I see this frequently when we forget to add a `return` statement to `Database.find` and `Database.find_one`.
