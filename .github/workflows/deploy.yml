@@ -26,4 +26,4 @@ jobs:
       - run: npm install
       - run: npm install -g surge
       - run: npm run cur:build
-      - run: surge ./curriculum/.vuepress/dist/ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+      - run: surge ./source/.vuepress/dist/ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
