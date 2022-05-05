@@ -40,5 +40,10 @@ module.exports = {
     lineNumbers: true,
     toc: { includeLevel: [1, 2] },
   },
-  plugins: [["plausible", { domain: "mongodb.tecladocode.com" }]],
+  plugins: [
+    [
+      "plausible",
+      { domain: "mongodb.tecladocode.com", outboundLinkTracking: true },
+    ],
+  ],
 };
